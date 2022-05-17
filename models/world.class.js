@@ -88,7 +88,7 @@ class World {
   checkCollisionsOfObjects() {
     setInterval(() => {
       this.checkThrowObjects();
-    }, 1000);
+    }, 500);
 
     setInterval(() => {
       this.checkCollectCoin();
